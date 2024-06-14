@@ -1,3 +1,7 @@
+from kivy.logger import Logger
+import logging
+Logger.setLevel(logging.TRACE)
+
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
